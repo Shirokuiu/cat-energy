@@ -1,0 +1,33 @@
+.main-nav
+  &--inner
+    .main-nav__link
+      &--active
+        &::after
+          background-color green
+
+.main-nav__link
+  position relative
+  
+  transition 0.2s ease
+  &:hover
+    opacity 0.6
+  &:active
+    opacity 0.3
+  &--active
+    &:hover
+      opacity 1
+    &:active
+      opacity 1
+    &::after
+      content ''
+      
+      position absolute
+      left 0
+      right 0
+      bottom -5px
+      
+      margin auto
+      
+      height 2px
+      
+      background-color white

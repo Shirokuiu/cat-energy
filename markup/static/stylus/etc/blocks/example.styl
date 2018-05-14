@@ -1,0 +1,56 @@
+.example__description
+  background-image linear-gradient(to right, #f2f2f2 70%, #eaeaea 30%)
+  
+.example__description-content
+  padding-top 75px
+  padding-bottom 65px
+  
+  background-image linear-gradient(to right, #f2f2f2 74.65%, #eaeaea 25.35%)
+
+.example__description-text
+  font-family 'Arial', sans-serif
+  color #7c7c7c
+  
+.example__preview
+  position relative
+  
+  display flex
+  justify-content center
+  padding-top 15px
+  padding-bottom 20px
+  
+  border 1px solid #cdcdcd
+  border-bottom none
+  border-radius 2px
+  
+.example__preview-title-text
+  position absolute
+  left 0
+  right 0
+  bottom -8px
+  
+  display flex
+  align-items center
+  margin auto
+  
+  font-family 'Arial', sans-serif
+  color #7c7c7c
+  &::before,
+  &::after
+    content ''
+    
+    flex-grow 1
+    
+    height 1px
+    
+    background-color #cdcdcd
+  &::before
+    margin-right 10px
+    
+    transform: translateX(-1px) translateY(-0.12px);
+    border-radius: 0 0 0 60px;
+  &::after
+    margin-left 10px
+    
+    transform: translateX(1px) translateY(-0.12px);
+    border-radius: 0 0 60px 0;

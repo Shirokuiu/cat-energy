@@ -1,0 +1,222 @@
+doctype html
+html(class="no-js", lang="ru")
+  include ../components/head/head.pug
+  head
+    +head(head.defaults)
+  body.page
+    |%=symbols=%
+
+    .wrapper
+      .content
+        header.page-header.column.m--b80
+          .container.grow.column.column--jc-sb
+            .row.row--jc-sb.row--ai-c
+              .logo
+                a.logo__link.d-block(href="#" tabindex="0")
+                  img(src="%=static=%img/content/logo.svg" width="202" height="59" alt="Логотип кэтэнерджи")
+              nav.main-nav.main-nav--inner
+                ul.main-nav__list.list.row.row--jc-sb.b--w485
+                  li.main-nav__items
+                    a.main-nav__link.b-block.text.text--black20.text--uppercase(href="index.html" tabindex="0") Главная
+                  li.main-nav__items
+                    a.main-nav__link.main-nav__link--active.b-block.text.text--black20.text--uppercase(href="catalog.html" tabindex="0") Каталог продукции
+                  li.main-nav__items
+                    a.main-nav__link.b-block.text.text--black20.text--uppercase(href="form.html" tabindex="0") Подбор программы
+        main.page-content
+          
+          .container.m--b150
+            h2.text.text--black60.text--fw400 Каталог продукции
+            
+          .catalog.m--b85
+            
+            .catalog__carts.container.row.row--wrap.m--b75
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap
+                  img(src="%=static=%img/content/catenergy500-chicken.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 500 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 500 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Курица
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 700 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap.catalog__cart-img-wrap--big
+                  img(src="%=static=%img/content/catenergy1000-chicken.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 1000 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 1000 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Курица
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 1000 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap
+                  img(src="%=static=%img/content/catenergy500-fish.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 500 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 500 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Рыба
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 700 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap.catalog__cart-img-wrap--big
+                  img(src="%=static=%img/content/catenergy1000-fish.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 1000 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 1000 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Рыба
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 1000 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap
+                  img(src="%=static=%img/content/catenergy500-buckwheat.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 500 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 500 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Гречка
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 400 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap.catalog__cart-img-wrap--big
+                  img(src="%=static=%img/content/catenergy1000-buckwheat.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 1000 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 1000 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Гречка
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 700 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.column.b--w245
+                .catalog__cart-img-wrap
+                  img(src="%=static=%img/content/catenergy500-rice.png" alt="каталог товара")
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Cat Energy PRO 500 г
+                ul.list.m--b30
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Объем
+                    p.catalog__cart-description-text.text.text--grayDark16 500 г
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Вкус
+                    p.catalog__cart-description-text.text.text--grayDark16 Рис
+                  li.catalog__cart-description.row.row--jc-sb
+                    p.catalog__cart-description-text.text.text--grayDark16 Цена
+                    p.catalog__cart-description-text.text.text--grayDark16 500 Р
+                a.catalog__cart-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+              .catalog__cart.catalog__cart--add.column.b--w245
+                span.catalog__cart-add-icon
+                h2.text.text--black20.text--fw400.text--center.m--t-a.m--b25 Показать еще 100500 товаров
+                p.catalog__cart-description-text.text.text--grayDark16.text--center.m--b85 На самом деле вкусов гораздо больше!
+                a.catalog__cart-link.button.button--fill-grayLight.button--p-tb10.text.text--grayDark16.text--uppercase(href="#") Показать все
+                
+            .catalog__additional
+              .container.container--catalog.m--b75
+                h2.catalog__additional-headline.text.text--black36.text--fw400 Дополнительные товары
+                
+              .row.container
+                ul.catalog__additional-description.list.grow.b--fb895
+                  li.catalog__additional-description-items.row.row--ai-c
+                    h2.text.text--black20.text--uppercase.text--fw400.b--w325 Сахарозаменитель
+                    p.text.text--arialGrey16.b--w235 1 упаковка (100 г)
+                    p.text.text--arialGrey16.b--w80 200 Р.
+                    .b.grow
+                      a.catalog__additional-description-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+                  li.catalog__additional-description-items.row.row--ai-c
+                    h2.text.text--black20.text--uppercase.text--fw400.b--w325 Питьевая вода
+                    p.text.text--arialGrey16.b--w235 5 литров
+                    p.text.text--arialGrey16.b--w80 50 Р.
+                    .b.grow
+                      a.catalog__additional-description-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+                  li.catalog__additional-description-items.row.row--ai-c
+                    h2.text.text--black20.text--uppercase.text--fw400.b--w325 Молоко
+                    p.text.text--arialGrey16.b--w235 1 литр
+                    p.text.text--arialGrey16.b--w80 100 Р.
+                    .b.grow
+                      a.catalog__additional-description-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+                  li.catalog__additional-description-items.row.row--ai-c
+                    h2.text.text--black20.text--uppercase.text--fw400.b--w325 Витамины
+                    p.text.text--arialGrey16.b--w235 1 упаковка (30 г)
+                    p.text.text--arialGrey16.b--w80 300 Р.
+                    .b.grow
+                      a.catalog__additional-description-link.button.button--fill-green.button--p-tb10.text.text--white16.text--uppercase(href="#") Заказать
+                      
+                .b--w245.m--l80
+                  a.catalog__additional-link.column.column--jc-c.column--ai-c(href="#")
+                    span.catalog__additional-link-icon.d-block.m--b60
+                      != pugHelpers.Icon.call(locals, {iconName: 'present', className: 'present'})
+                    p.text.text--arialWhite16.text--center.text--lh24 Закажите все и получите чехол для кота в подарок!
+                  
+              
+                
+          .about
+            .about__map
+              .about__content.container
+                .about__content-description.column.column--jc-c.column--ai-c
+                  .row
+                    .b--w160.m--r80
+                      h2.text.text--black20.text--fw400.text--uppercase Приглашаем к сотрудничеству дилеров!
+                    .b
+                      p.about__content-text.text.text--greyDark16.m--b20 ул. Большая
+                        br
+                        | Конюшенная, д. 19/8 
+                      p.about__content-text.text.text--greyDark16 Санкт-Петербург
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0d6f752ed801d67fc66fe3f3018b76b7757f967e70ab5c1ce6dd8da141f681b6&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+        
+      footer.page-footer
+        .footer-content
+          .container.row.row--jc-sb.row--ai-c
+            .logo
+              a.logo__link.logo__link--footer.d-block(href="#" tabindex="0")
+                img(src="%=static=%img/content/logo-footer.svg" width="128" height="24" alt="Логотип кэтэнерджи")
+            ul.socials.list.row.row--ai-c
+              li.socials__items
+                a.socials__link.socials__link--vk.d-block(href="#")
+                  != pugHelpers.Icon.call(locals, {iconName: 'vk', className: 'vk'})
+              li.socials__items
+                a.socials__link.socials__link--inst.d-block(href="#")
+                  != pugHelpers.Icon.call(locals, {iconName: 'inst', className: 'inst'})
+              li.socials__items
+                a.socials__link.socials__link--fb.d-block(href="#")
+                  != pugHelpers.Icon.call(locals, {iconName: 'fb', className: 'fb'})
+            .footer-content__copyright
+              a.footer-content__copyright-link.text.d-block.text.text--greyDark16(href="https://htmlacademy.ru/intensive/adaptive") HTML Academy
+                span.footer-content__copyright-link-academy-icon.d-block
+                  != pugHelpers.Icon.call(locals, {iconName: 'academy', className: 'academy'})
+
+    script(src='%=static=%js/separate-js/svg4everybody.min.js')
+    script svg4everybody();
+
+    //- Main scripts. You can replace it, but I recommend you to leave it here
+    script(src='%=static=%js/main%=hash=%%=min=%.js')
